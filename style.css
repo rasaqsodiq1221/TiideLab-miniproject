@@ -1,0 +1,62 @@
+/* RESETTING THE BROWSER DEFAULT STYLES */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: Arial;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.heading{
+	margin: 10px 0;
+
+}
+/*  SEARCH BOX SECTION */
+.search-section{
+	background-color: #850628;
+	padding: 10px;
+}
+#search{
+	width: 100%;
+	padding: 12px 20px;
+	border: none;
+}
+.user-list-section{
+	margin-top: 20px;
+}
+li{
+	border: 1px solid #dddddd;
+	margin-top: -1px ; /*prevent double border */
+	background-color:#87CEEB;
+	font-size: 18px;
+	text-transform: capitalize;
+	padding: 12px;
+}
+li:hover{
+	background-color: #d2ff08;
+}
+/*  Pill button for username */
+.username{
+	background-color: #850628;
+	color: #06f8e4;
+	padding: 6px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+/* MEDIA QUERY FOR LARGE SCREENS */
+@media (min-width: 1000px){
+	body{
+		background-color: #FF00FF;
+		width: 50%;
+	}
+	li{
+		font-size: 14px;
+	}
+}
